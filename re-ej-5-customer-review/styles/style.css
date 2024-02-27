@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Agdasima", sans-serif;
+}
+/* Body Styles */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f8ff;
+}
+
+/* Main Conteiner Styles */
+
+.cont-all {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+}
+
+/* Title Styles */
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0px 10px 20px 10px;
+}
+
+/* Stars Styles */
+
+.cont-stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f8ff;
+    padding: 5px;
+    margin: 0px 60px;
+    border-radius: 30px;
+}
+
+.p-stars {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    color: #6b6c80;
+}
+
+/* Ratings Styles */
+
+.cont-ratings {
+    text-align: center;
+}
+
+.star-5, .star-4, .star-3, .star-2, .star-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+/* 5 Star Styles */
+
+.star-5-bar {
+    width: 200px;
+    background-color: #f5f8ff;
+    border-radius: 20px;
+    height: 15px;
+    margin: 0px 5px;
+}
+
+.color-5 {
+    width: 84%;
+    background-color: #ffcc48;
+    border-radius: 20px;
+    height: 15px;
+}
+
+/* 4 Star Styles */
+
+.star-4-bar {
+    width: 200px;
+    background-color: #f5f8ff;
+    border-radius: 20px;
+    height: 15px;
+    margin: 0px 5px;
+}
+
+.color-4 {
+    width: 18%;
+    background-color: #ffcc48;
+    border-radius: 20px;
+    height: 15px;
+}
+
+/* 3 Star Styles */
+
+.star-3-bar {
+    width: 200px;
+    background-color: #f5f8ff;
+    border-radius: 20px;
+    height: 15px;
+    margin: 0px 5px;
+}
+
+.color-3 {
+    width: 8%;
+    background-color: #ffcc48;
+    border-radius: 20px;
+    height: 15px;
+}
+
+/* 2 Star Styles */
+
+.star-2-bar {
+    width: 200px;
+    background-color: #f5f8ff;
+    border-radius: 20px;
+    height: 15px;
+    margin: 0px 5px;
+}
+
+.color-2 {
+    width: 4%;
+    background-color: #ffcc48;
+    border-radius: 20px;
+    height: 15px;
+}
+
+/* 1 star Styles */
+
+.star-1-bar {
+    width: 200px;
+    background-color: #f5f8ff;
+    border-radius: 20px;
+    height: 15px;
+    margin: 0px 5px;
+}
+
+.color-1 {
+    width: 2%;
+    background-color: #ffcc48;
+    border-radius: 20px;
+    height: 15px;
+}
+
+/* Anchor Styles */
+
+.cont-a {
+    text-align: center;
+    margin: 30px;
+}
+
+.cont-a a {
+    text-decoration: none;
+    color: #7b99e8;
+}

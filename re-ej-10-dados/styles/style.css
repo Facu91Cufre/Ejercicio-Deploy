@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Dice Conteiner Styles */
+
+.cont-dices {
+    background-color: #d3d3d3;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Dices Overall Styles */
+
+.dice {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* Dice 1 */
+
+.d1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Dot Styles */
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+/* Dice 2 Styles */
+
+.d2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.d2p2 {
+    align-self: end;
+}
+
+/* Dice 3 Styles */
+
+.d3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.d3p1 {
+    align-self: end;
+}
+
+.d3p2 {
+    align-self: center;
+}
+
+/* Dice 4 Styles */
+
+.d4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.d4 div {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Dice 5 Styles */
+
+.d5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.d5 div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.d5 .dot-center {
+    display: flex;
+    justify-content: center;
+}
+
+/* Dice 6 Styles */
+
+.d6 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.d6 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (max-width: 880px) {
+    .cont-dices {
+        display: grid;
+        grid-template-columns: repeat (2, 1fr);
+        justify-items: center;
+    }
+}
+
+@media (max-width: 190px) {
+    .cont-dices {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

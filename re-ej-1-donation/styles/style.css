@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Dancing Script", cursive;
+}
+
+/* Body Styles */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #eae7fb;
+}
+
+/* Main Conteiner Styles */
+
+.cont-main {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 60px;
+    width: 450px;
+}
+
+/* Title Styles */
+
+h4 {
+    color: #363636;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Prices Conteiner Styles */
+
+.cont-prices {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+/* Price Boxes Styles */
+
+.cont-prices p {
+    margin: 0px 5px;
+    background-color: white;
+    border: 1px solid #f8f8fe;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: #716e94;
+}
+
+.cont-prices p:hover {
+    background-color: #7563f6;
+    color: #fbfbff;
+    cursor: pointer;
+}
+
+/* Button Styles */
+
+.cont-button {
+    text-align: center;
+}
+
+.cont-button button {
+    width: 100%;
+    padding: 10px;
+    background-color: #7563f6;
+    border: 1px solid #fbfbff;
+    color: #fbfbff;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.cont-button button:hover {
+    background-color: #5540ca;
+    cursor: pointer;
+}

@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+
+/* Body Styles */
+
+body {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+/* Section Styles */
+
+section {
+    box-shadow: 0px 1px 22px 1px rgba(0,0,0,0.56);
+    border-radius: 10px;
+    width: 600px;
+    margin: 50px auto;
+}
+
+/* Stormtrooper Styles */
+
+.cont-header {
+    background-color: #cb2140;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.cont-img {
+    width: 400px;
+}
+
+.cont-img img {
+    width: 100%;
+}
+
+/* Main Container Styles */
+
+.cont-main {
+    background-color: #0c1f2c;
+    padding: 20px 40px 30px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.cont-main h1 {
+    font-size: 40px;
+    padding: 0px 50px;
+    margin: 20px 0px;
+    font-weight: 900;
+}
+
+.cont-specs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+.cont-specs p {
+    border-radius: 20px;
+    border: 1.5px solid #9c213b;
+    padding: 5px 10px;
+
+}
+
+h4 {
+    font-size: 12px;
+    font-weight: 900;
+}
+
+p {
+    font-weight: 300;
+}
+
+.p-description {
+    font-size: 16px;
+    margin: 20px 0px;
+}
+
+.p-price {
+    font-size: 32px;
+    margin: 20px;
+    font-weight: 500;
+}
+
+/* Button Styles */
+
+.cont-button {
+    text-align: center;
+}
+
+.cont-button button {
+    background-color: #cb2140;
+    padding: 10px 50px;
+    font-size: 14px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 400;
+}
+
+.cont-button button:hover {
+    cursor: pointer;
+    background-color: #9c213b;
+    transition: 0.5s;
+}
+
+
+
