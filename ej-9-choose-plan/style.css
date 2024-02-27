@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    color: #ffffef;
+}
+
+/* Body Styles */
+
+body {
+    min-height: 100vh;
+    background-color: #333333;
+}
+
+.main-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 25px 0px 10px;
+    text-align: center;
+}
+
+.p-header {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* Main Container Styles */
+
+.cont-pricetables {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/* Price Tables Styles */
+
+.pricetable {
+    width: 290px;
+    text-align: center;
+    background-color: #434343;
+    border: 1px solid #8d8d8d;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+.pricetable:hover {
+    background-color: #5a5959;
+    border-color: white;
+}
+
+.pricetable h2 {
+    font-size: 28px;
+    margin: 20px 0px 40px;
+    font-weight: 400;
+}
+
+.pricetable h1 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.pricetable p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+ul li {
+    text-align: start;
+    list-style: none;
+    padding: 0px 20px;
+    font-size: 20px;
+}
+
+/* Button Styles */
+
+.cont-button {
+    margin: auto 1.25rem 1.25rem;
+    text-align: center;
+}
+
+.cont-button button {
+    background-color: #c7c7c7;
+    border: none;
+    width: 250px;
+    padding: 10px 30px;
+    font-size: 14px;
+    color: #87bac7;
+    font-weight: 400;
+    border-radius: 4px;
+}
+
+.cont-button button:hover {
+    background-color: #bdbbbb;
+    cursor: pointer;
+}
