@@ -50,6 +50,7 @@ body {
 .pricetable:hover {
     background-color: #5a5959;
     border-color: white;
+    transform: translate(5px, -20px);
 }
 
 .pricetable h2 {
